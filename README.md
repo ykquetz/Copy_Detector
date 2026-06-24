@@ -29,11 +29,12 @@ Bu iki aşamalı yaklaşım, büyük NAS sürücülerinde (yüz binlerce dosya) 
 | Buton / Alan | Ne işe yarar |
 |---|---|
 | **Yol giriş kutusu** | Taranacak klasör veya sürücü yolunu buraya yazın/yapıştırın (örn. `C:\Kullanıcılar\Fotoğraflar`). |
+| **📁 Klasör Seç** | Dosya gezgini penceresi açar; klasörü elle yazmak yerine gözden geçirip seçmenizi sağlar. Seçim yapıldığında yol giriş kutusuna otomatik yazılır.
 | **Taramayı Başlat** | Girilen yoldaki tüm alt klasörleri tarayıp kopya dosyaları aramaya başlar. Tarama arka planda çalışır, arayüz donmaz. |
 | **İptal Et** | Devam eden taramayı durdurur. Onay penceresi çıkar; onaylanırsa tarama o ana kadar bulduklarını bir kenara bırakıp tamamen sonlanır (sonuç penceresi açılmaz). |
 | **Son Sonucu Yükle** | Bir önceki taramada bulunan sonuçları yeniden taramaya gerek kalmadan diskten geri yükler. Bu arada silinmiş/taşınmış dosyalar otomatik olarak listeden çıkarılır. Hiç tarama yapılmadıysa bu buton pasif görünür. |
 | **Log ekranı** | Tarama ilerlemesini (kaç dosya tarandı, hangi dosyalar atlandı, kaç kopya bulundu) canlı olarak gösterir. |
-
+| **Sayfa numarası girişi + Git** | İstediğiniz sayfa numarasını yazıp Git butonuna basarak (veya Enter'a basarak) doğrudan o sayfaya atlayabilirsiniz. Geçersiz veya aralık dışı bir numara girilirse uyarı verilir.
 Pencere kapatılmaya çalışıldığında tarama hâlâ sürüyorsa onay istenir; onaylanırsa tarama güvenli şekilde iptal edilip program kapanır.
 
 ### Sonuç Penceresi
