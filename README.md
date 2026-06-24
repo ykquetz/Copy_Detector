@@ -34,7 +34,8 @@ Bu iki aşamalı yaklaşım, büyük NAS sürücülerinde (yüz binlerce dosya) 
 | **İptal Et** | Devam eden taramayı durdurur. Onay penceresi çıkar; onaylanırsa tarama o ana kadar bulduklarını bir kenara bırakıp tamamen sonlanır (sonuç penceresi açılmaz). |
 | **Son Sonucu Yükle** | Bir önceki taramada bulunan sonuçları yeniden taramaya gerek kalmadan diskten geri yükler. Bu arada silinmiş/taşınmış dosyalar otomatik olarak listeden çıkarılır. Hiç tarama yapılmadıysa bu buton pasif görünür. |
 | **Log ekranı** | Tarama ilerlemesini (kaç dosya tarandı, hangi dosyalar atlandı, kaç kopya bulundu) canlı olarak gösterir. |
-| **Sayfa numarası girişi + Git** | İstediğiniz sayfa numarasını yazıp Git butonuna basarak (veya Enter'a basarak) doğrudan o sayfaya atlayabilirsiniz. Geçersiz veya aralık dışı bir numara girilirse uyarı verilir.
+
+
 Pencere kapatılmaya çalışıldığında tarama hâlâ sürüyorsa onay istenir; onaylanırsa tarama güvenli şekilde iptal edilip program kapanır.
 
 ### Sonuç Penceresi
@@ -50,6 +51,7 @@ Pencere kapatılmaya çalışıldığında tarama hâlâ sürüyorsa onay isteni
 | **🔒 Korumalı** (bazı dosyalarda Sil yerine görünür) | Bu dosyanın, grubun son kalan orijinali olduğu ve silinemeyeceği anlamına gelir. Bir grupta her zaman en az bir dosya korunur; birden fazla dosya aynı (en eski) tarihe sahipse bunlardan biri silinebilir, ama sonuncusu asla silinemez. |
 | **Klasörde Göster** | (Sadece Windows) Dosya Gezgini'ni açıp ilgili dosyayı seçili hale getirir. |
 | **<< Önceki Sayfa / Sonraki Sayfa >>** | Çok sayıda kopya grubu olduğunda (sayfa başına 25 grup) sayfalar arasında gezinmenizi sağlar. |
+| **Sayfa numarası girişi + Git** | İstediğiniz sayfa numarasını yazıp Git butonuna basarak (veya Enter'a basarak) doğrudan o sayfaya atlayabilirsiniz. Geçersiz veya aralık dışı bir numara girilirse uyarı verilir.
 
 ## Silme Kuralları (Önemli)
 
@@ -113,6 +115,7 @@ This two-phase approach provides fast and reliable results on large NAS drives (
 | Button / Area | What it does |
 | --- | --- |
 | **Path input box** | Type/paste the folder or drive path to be scanned here (e.g., `C:\Users\Photos`). |
+| **📁 Select Folder** | Opens the File Explorer window; allows you to browse and select instead of typing manually. Automatically changes the selection path input.
 | **Start Scan** | Scans all subfolders in the entered path and starts looking for duplicate files. The scan runs in the background; the interface does not freeze. |
 | **Cancel** | Stops the ongoing scan. A confirmation prompt appears; if confirmed, the scan discards what it has found so far and completely terminates (the results window does not open). |
 | **Load Last Result** | Restores the results found in the previous scan from the disk without needing to rescan. Meanwhile, deleted/moved files are automatically removed from the list. If no scan has been performed, this button appears disabled. |
@@ -133,6 +136,7 @@ If you try to close the window while a scan is still running, confirmation is re
 | **🔒 Protected** (appears instead of Delete on some files) | Means this file is the last remaining original of the group and cannot be deleted. At least one file is always protected in a group; if multiple files have the exact same (oldest) date, one of them can be deleted, but the last one never can. |
 | **Show in Folder** | (Windows only) Opens File Explorer and selects the respective file. |
 | **<< Previous Page / Next Page >>** | Allows you to navigate between pages when there are many duplicate groups (25 groups per page). |
+| **Page Number Entry + Go** | You can jump directly to the desired page by typing the page number and pressing the Go button (or pressing Enter). A warning will be given if an invalid or out-of-range number is entered.
 
 ## Deletion Rules (Important)
 
